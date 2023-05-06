@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --font-family: 'Roboto Mono', monospace;
+    --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --bg-color: rgb(255, 253, 251);
+  /* --line-height: 1.7rem;
+  --transition: 0.3s; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: var(--font-family);
+    margin: 40;
+    background: var(--bg-color);
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+
+  .about img {
+    height: 37.5rem;
+    width: 37.5rem;
+  }
+
+h2, h3, p {
+    margin-bottom: var(--bottom-margin);
+} 
+.bio-text {
+    margin-bottom: 1.5rem;
+} 
+
+hr {
+    border-color: rgba(0, 0, 0, 0.411);
+    margin: 1.5rem 2.5rem;
+}
+
+.tech-section {
+    display: flex;
+    justify-content: center;
+    margin: 0 3rem;
+}
+
+.tech-section div {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px dashed;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+  }
+
+.coursework{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: 1rem;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+.project-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.5rem;
+  color:rgb(116, 116, 116);
+}
+
+.project img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.module {
+  color: rgb(116, 116, 116);
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background-color: var(--bg-color);
+  padding: 1.5rem;
+}
