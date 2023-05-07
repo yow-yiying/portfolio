@@ -128,3 +128,126 @@ footer {
   background-color: var(--bg-color);
   padding: 1.5rem;
 }
+
+@media screen and (max-width: 720px) {
+  /*changes reflects on screen with a width of 720px and below*/
+  /* Set body font family, margin, and background color */
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  background: var(--bg-color);
+  text-align: center;
+}
+
+/* Style the navbar */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the about section */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 1.5rem;
+}
+
+.about img {
+  height: auto;
+  width: 100%;
+  max-width: 37.5rem;
+}
+
+h2, h3 {
+  margin-bottom: var(--bottom-margin);
+} 
+
+.bio-text {
+  margin-bottom: 1.5rem;
+} 
+
+hr {
+  border-color: rgba(0, 0, 0, 0.411);
+  margin: 1.5rem 2.5rem;
+}
+
+/* Style the tech section */
+.tech-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 1.5rem;
+}
+
+.tech-section div {
+  flex: 1 0 15rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px dashed;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+.coursework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 1.5rem;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.project-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.5rem;
+  color:rgb(116, 116, 116);
+}
+
+.project img {
+  height: auto;
+  width: 100%;
+  max-width: 25rem;
+}
+
+.module {
+  color: rgb(116, 116, 116);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background-color: var(--bg-color);
+  padding: 1.5rem;
+}
+}
