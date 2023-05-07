@@ -53,7 +53,7 @@ nav {
     width: 37.5rem;
   }
 
-h2, h3, p {
+h2, h3 {
     margin-bottom: var(--bottom-margin);
 } 
 .bio-text {
@@ -111,12 +111,16 @@ ul {
 }
 
 .project img {
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    width: auto;
 }
 
 .module {
   color: rgb(116, 116, 116);
+  margin-bottom: 1.5rem;
+}
+
+p {
   margin-bottom: 1.5rem;
 }
 
